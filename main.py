@@ -114,7 +114,7 @@ quiz = [
         ]
     }
 ]
-1
+
 
 # Función para mostrar las opciones
 def options(list):
@@ -175,4 +175,5 @@ chosen_house = random.choice(houses_with_max_points)
 
 # Imprime el resultado
 print(f"\n     Pertenece a la casa {chosen_house} \n")
-1
+
+   
