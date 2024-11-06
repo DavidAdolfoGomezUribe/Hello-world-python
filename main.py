@@ -1,29 +1,16 @@
-#Tipos de datos
+fullName = input("Enter your name: ")
+age = int(input("Enter your age: "))
+gender = input("Enter your gender posibble options : M or W  ")
+height = float(input("altura"))
 
 
-name = "David Adolfo Gomez Uribe"               #string
-gender = "M"                                    #char
-age = 22                                        #int
-height = 1.72                                   #float
-trainer = False                                 #bool
-
-#Conjuntos
-hobbies = ["Juegos ","Dormir","Tocar Musica"]    #array
-direccion = (dict) ["country": "Colombia", "state": "Santander"] #object
-
-#para concatenar se usa una coma
-
-print(f"Camper name: {name}")
 
 
-print(f""" 
-      "Camper name: {name}"
-      "Camper name: {age}"
-       """)  
+print("""
+      hola, usuario {fullname}. ¿como estas? Te saluda Python. Gracias por compartir tu edad {age}; no sabia que eres un humano de tipo {gender}
+      """)
 
-
-#lo que no se puede hacer con los tipos de datos
-#presionar alt para mover codigo sobre el codigo
-#persionar ctrl para escribir en varias lineas
-
-#last line of code
+  
+  
+#last line of code 
+ 
